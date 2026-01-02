@@ -142,3 +142,48 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list styling for activity cards */
+.participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #eee;
+}
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+.participants ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.participants li {
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 15px;
+}
+.participant-name {
+  display: inline-block;
+  margin-right: 8px;
+}
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.remove-participant:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+.no-participants {
+  color: #666;
+  font-style: italic;
+  margin: 0;
+  padding: 4px 0;
+}
