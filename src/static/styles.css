@@ -142,3 +142,31 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list styling for activity cards */
+.participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #eee;
+}
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+.participants ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+.participants li {
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 15px;
+}
+.no-participants {
+  color: #666;
+  font-style: italic;
+  margin: 0;
+  padding: 4px 0;
+}
